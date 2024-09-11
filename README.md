@@ -25,7 +25,7 @@ This project is a Minimum Viable Product (MVP) for predicting the future prices 
 
 ```bash
 ├── agripricepredictor.py # Main application file
-├── commodities.csv       # Dataset for 22 commodities with year-wise price data
+├── DatasetSIH1647.csv    # Dataset for 22 commodities with year-wise price data
 ├── requirements.txt      # Python dependencies
 └── README.md             # This file
 ```
@@ -42,8 +42,8 @@ This project is a Minimum Viable Product (MVP) for predicting the future prices 
 1. **Clone the repository** to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/commodity-price-forecasting-mvp.git
-cd commodity-price-forecasting-mvp
+git clone https://github.com/sandeepmopidevi/predicting-prices-of-agri-horticultural-commodities-using-ai-ml
+cd predicting-prices-of-agri-horticultural-commodities-using-ai-ml
 ```
 
 2. **Install dependencies** using the following command:
@@ -52,7 +52,7 @@ cd commodity-price-forecasting-mvp
 pip install -r requirements.txt
 ```
 
-3. **Set up the dataset**: Ensure `commodities.csv` is placed in the root directory with the correct format.
+3. **Set up the dataset**: Ensure `DatasetSIH1647.csv` is placed in the root directory with the correct format.
 
 ## Usage
 
