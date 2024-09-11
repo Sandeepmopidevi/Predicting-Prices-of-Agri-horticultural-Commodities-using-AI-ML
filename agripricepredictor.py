@@ -28,7 +28,7 @@ if st.button("Submit"):
     forecast = sarimax_model.get_forecast(steps=5)
     forecasted_values = forecast.predicted_mean
 
-    forecast_years = pd.date_range(start='2025', periods=5, freq='Y')
+    forecast_years = pd.date_range(start='2025', periods=5, freq='YE')
     forecast_df = pd.DataFrame({'Year': forecast_years, f'{selected_commodity}_Price_Forecast': forecasted_values})
 
     st.write(f"### {selected_commodity} Price Forecast (2025-2029)")
