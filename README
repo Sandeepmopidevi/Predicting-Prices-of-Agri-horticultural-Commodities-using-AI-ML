@@ -1,6 +1,6 @@
 # Commodity Price Forecasting MVP
 
-This project is a Minimum Viable Product (MVP) for predicting the future prices of 22 agricultural commodities using SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous factors) model. The application allows users to select any commodity from a dropdown menu and visualize the forecasted price trend along with the year-wise values.
+This project is a Minimum Viable Product (MVP) for predicting the future prices of 22 agricultural commodities using the SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous factors) model. The application allows users to select any commodity from a dropdown menu and visualize the forecasted price trend along with the year-wise values.
 
 ## Table of Contents
 
